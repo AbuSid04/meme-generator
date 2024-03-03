@@ -71,7 +71,7 @@ export default function Meme(){
                 className="bg-gradient-to-r from-[#711F8D] to-[#A818DA] px-3 py-3 w-full text-white font-bold rounded-md mt-6" 
                 type="submit"
                 onClick={getMemeImage}
-            >Get a new meme image 🖼</button>
+            >Get a new meme image 🖼️</button>
             <div className="mt-8 h-full w-full font-Impact font-extrabold text-5xl relative">
                 <img className="h-full w-full" src={meme.randomImg} alt="Random Meme Image" />
                 <h1 className="absolute top-0 left-1/2 transform -translate-x-1/2 mt-8 text-white text-stroke">{meme.topText}</h1>

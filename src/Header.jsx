@@ -1,11 +1,12 @@
 import React from "react"
+import logo from "./assets/logo.svg"
 
 export default function Header(){
     return (
         <div className="text-white bg-gradient-to-r from-[#672280] to-[#A626D3] flex justify-between items-center px-8 py-6">
             <div className="flex items-center">
                 <img 
-                    src="/src/assets/logo.svg" 
+                    src={logo} 
                     alt="Troll face logo" 
                     className="w-8 h-6"
                 />

@@ -5,7 +5,7 @@ export default function Header(){
         <div className="text-white bg-gradient-to-r from-[#672280] to-[#A626D3] flex justify-between items-center px-8 py-6">
             <div className="flex items-center">
                 <img 
-                    src="./src/assets/logo.svg" 
+                    src="/src/assets/logo.svg" 
                     alt="Troll face logo" 
                     className="w-8 h-6"
                 />

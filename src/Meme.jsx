@@ -8,8 +8,6 @@ export default function Meme(){
         randomImg: "http://i.imgflip.com/1bij.jpg"
     })
 
-    console.log(meme)
-
     const [allMemes, setAllMemes] = React.useState([])
 
     React.useEffect(()=>{
